@@ -114,12 +114,12 @@ time, mark, audio, video {
     margin: auto;
 }
 .top-title p{
-    font-size: 55px;
+    font-size: 40px;
     padding-bottom: 20px;
     color: #222;
 }
 .top-title span{
-    font-size: 26px;
+    font-size: 20px;
     letter-spacing: .1em;
     text-align: justify;
     padding-top: 20px;
@@ -154,22 +154,22 @@ time, mark, audio, video {
 }
 .main-nav li{
     display: inline-block;
-    padding: 40px 0px;
+    padding: 20px 0px;
 }
 .main-nav a{
     text-decoration: none;
     color: #333;
-    font-size: 20px;
+    font-size: 16px;
     padding-right: 50px;
 }
 .main-nav-img{
     position: absolute;
     right: -50px;
-    top: 20px;
+    top: 10px;
 }
-.top-nav-img img{
-    width: 5px;
-    height: 5px;
+.main-nav-img img{
+    width: 40px;
+    height: 40px;
 }
 .wrap{
     width: 1200px;
@@ -228,9 +228,9 @@ time, mark, audio, video {
 }
 /* main */
 .container{
-    background-color: #eee;
+    background-color: #E2E4E7;
     width: 100%;
-    height: 800px;
+    height: 700px;
     padding-top: 100px;
     margin-bottom: 80px;
 }
@@ -239,19 +239,6 @@ time, mark, audio, video {
     margin: auto;
     display: flex;
     position: relative;
-}
-.prebtn img ,.nextbtn img{
-    width: 20px;
-    height: 20px;
-    background-color: #06428B;
-    padding: 20px;
-    border-radius: 50%;
-}
-.prebtn img{
-    transform: rotate(90deg);
-    position: absolute;
-    bottom: -30px;
-    left: -30px;
 }
 .nextbtn img{
     transform: rotate(-90deg);
@@ -290,8 +277,11 @@ time, mark, audio, video {
     padding: 20px;
 }
 /* footer */
-.footertext{
+.footer{
     width: 100%;
+    margin: auto;
+}
+.footertext{
     margin-left: auto;
     margin-right: auto;
 }
@@ -299,7 +289,6 @@ time, mark, audio, video {
     display: flex;
 }
 .footertext{
-    width: 100%px;
     margin: auto;
     text-align: center;
 }
@@ -334,13 +323,15 @@ time, mark, audio, video {
 }
 .footer-nav-bgc{
     background-color: #333F48;
-    width: 100%;
+    margin: auto;
     margin-top: 80px;
     padding-bottom: 80px;
 }
-.footer-nav{
-    width: 1440px;
+.footer-nav-bgc>div{
+    width: 1200px;
     margin: auto;
+}
+.footer-nav{
     padding-top: 60px;
     position: relative;
 }
@@ -349,7 +340,7 @@ time, mark, audio, video {
 }
 .footer-nav p{
     color: #fff;
-    font-size: 30px;
+    font-size: 24px;
 }
 .footer-nav li{
     list-style: none;
@@ -358,7 +349,7 @@ time, mark, audio, video {
 .footer-nav a{
     color: #B2C2D7;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 200;
 }
 .community-links{

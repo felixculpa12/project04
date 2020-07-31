@@ -19,20 +19,29 @@ time, mark, audio, video {
 .header{
     width: 100%;
     height: 600px;
+    background-image: url(image/img7.png);
+    background-size: 100%;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-color: #F8F8F8;
+}
+.header>div{
+    width: 1200px;
+    margin: auto;
 }
 .top-nav{
-    padding: 40px 30px;
+    padding: 40px 0px;
     display: flex;
     justify-content: center;
 }
 .top-nav-main{
     margin-left: auto;
     margin-right: auto;
-    line-height: 60px;
+    line-height: 40px;
     position: relative;
 }
 .top-nav h1{
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 700;
 }
 .top-nav-main li{
@@ -43,7 +52,7 @@ time, mark, audio, video {
 .list{
     position: absolute;
     margin-top: 20px;
-    width: 150px;
+    width: 120px;
     top: 40px;
     left: -10px;
     display: none;
@@ -76,7 +85,7 @@ time, mark, audio, video {
     }
 .top-nav-main a{
     color: #333;
-    font-size: 20px;
+    font-size: 16px;
     text-decoration: none;
 }
 .top-nav-sub li{
@@ -133,13 +142,15 @@ time, mark, audio, video {
 }
 /* topnav */
 .main{
-    background-color: #eee;
+    background-color: #E2E4E7;
 }
 .main-nav{
-    width: 1440px;
+    width: 1200px;
     margin: auto;
     border-top: 1px solid #aaa;
     border-bottom: 1px solid #aaa;
+    display: flex;
+    position: relative;
 }
 .main-nav li{
     display: inline-block;
@@ -151,8 +162,17 @@ time, mark, audio, video {
     font-size: 20px;
     padding-right: 50px;
 }
+.main-nav-img{
+    position: absolute;
+    right: -50px;
+    top: 20px;
+}
+.top-nav-img img{
+    width: 5px;
+    height: 5px;
+}
 .wrap{
-    width: 1440px;
+    width: 1200px;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -171,7 +191,7 @@ time, mark, audio, video {
     color: #333;
 }
 .item .item-msg{
-    width: 310px;
+    width: 250px;
     height: 400px;
     border-radius: 10px;
     background-color: rgba(22, 17, 59, 0.5);
@@ -215,16 +235,16 @@ time, mark, audio, video {
     margin-bottom: 80px;
 }
 .container-img{
-    width: 1920px;
+    width: 1200px;
     margin: auto;
     display: flex;
     position: relative;
 }
 .prebtn img ,.nextbtn img{
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     background-color: #06428B;
-    padding: 30px;
+    padding: 20px;
     border-radius: 50%;
 }
 .prebtn img{
@@ -241,14 +261,14 @@ time, mark, audio, video {
 }
 .logo{
     position: absolute;
-    bottom: -300px;
-    left: 260px;
+    bottom: -200px;
+    left: 100px;
 }
 .logo h1 {
     display: none;
 }
 .logo img{
-    width: 250px;
+    width: 150px;
 }
 .logo span{
     display: block;
@@ -260,12 +280,12 @@ time, mark, audio, video {
 .container-text{
     position: absolute;
     bottom: -250px;
-    left: 600px;
-    font-size: 20px;
+    left: 300px;
+    font-size: 16px;
     display: flex;
 }
 .container-text p{
-    width: 550px;
+    width: 380px;
     line-height: 1.8em;
     padding: 20px;
 }

@@ -171,19 +171,22 @@ time, mark, audio, video {
     width: 40px;
     height: 40px;
 }
+/*  */
 .wrap{
     width: 1200px;
     margin: auto;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    position: relative;
+    padding-top: 60px;
 }
 .item{
     text-align: center;
     transform: translateY(0px);
     transition: .5s;
     position: relative;
-    margin-top: 50px;
+    margin: 20px 0px;
 }
 .item h3{
     padding-top: 20px;
@@ -202,9 +205,9 @@ time, mark, audio, video {
     display: none;
 }
 .text p{
-    padding: 30px;
+    padding: 20px;
     color: #fff;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 2em;
 }
 .item-msg a{
@@ -228,6 +231,19 @@ time, mark, audio, video {
 }
 .item:hover{
     transform: translateY(-20px);
+}
+.more{
+    background-color: #E2E4E7;
+    width: 1200px;
+    margin: auto;
+    position: relative;
+    padding-top: 30px;
+}
+.more a{
+    position: absolute;
+    right: 0;
+    text-decoration: none;
+    color: salmon;
 }
 /* main */
 .container{
